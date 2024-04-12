@@ -1,0 +1,283 @@
+._s_bg {
+  z-index: 2;
+}
+._s_bg,
+._s_wrap {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+._s_d {
+  float: left;
+  position: absolute;
+  padding: 0;
+  width: 33%;
+  z-index: 9;
+  animation: dropAnimation 10s linear -2s infinite;
+}
+@keyframes dropAnimation {
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: dropAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+    0% {
+        top: -100%;
+    }
+    30% {
+        top: -50%;
+    }
+    31% {
+        top: -47%;
+    }
+    
+    32% {
+        top: -49%;
+    }
+    33% {
+        top: -50%;
+    }
+    60% {
+        top: -50%;
+        opacity: 1;
+    }
+    61% {
+        top: -60%;
+        opacity: 1;
+    }
+    62% {
+        top: -66%;
+        opacity: 0;
+    }
+    100% {
+        top: -100%;
+        opacity: 0;
+    }
+}
+
+._s_egg {
+  float: left;
+  padding: 0;
+  width: 28.5%;
+  position: absolute;
+  z-index: 8;
+  margin: 5% 0 0;
+  animation: eggAnimation 10s linear -2s infinite;
+}
+/* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: eggAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+._s_app_broke {
+  float: left;
+  padding: 0;
+  position: absolute;
+  bottom: -6px;
+  z-index: 8;
+  width: 28.5%;
+  animation: appBrokeAnimation 10s linear -2s infinite;
+  /* animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: -2s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: appBrokeAnimation;
+        animation-timeline: auto;
+        animation-range-start: normal;
+        animation-range-end: normal; */
+}
+._s_ani {
+    float: left;
+    padding: 0;
+    position: absolute;
+    bottom: 18%;
+    z-index: 8;
+    width: 44.56%;
+    animation: aniAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: aniAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
+._s_smoke {
+    float: left;
+    padding: 0;
+    position: absolute;
+    z-index: 8;
+    width: 56%;
+}
+._s_lense {
+    float: left;
+    padding: 0;
+    position: absolute;
+    bottom: 3%;
+    z-index: 11;
+    width: 79.5%;
+}
+._s_lgif {
+    float: left;
+    padding: 0;
+    position: absolute;
+    bottom: 18%;
+    z-index: 7;
+    width: 72%;
+}
+._s_digital, ._s_icons {
+    float: left;
+    padding: 0;
+    position: absolute;
+}
+._s_digital {
+    bottom: 14%;
+    z-index: 8;
+    width: 74%;
+    animation: digitalAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: digitalAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
+._s_mob_1 {
+    bottom: 3%;
+    position: absolute;
+    width: 91%;
+    float: left;
+    animation: appleAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: appleAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
+._s_m_icons {
+    float: left;
+    position: absolute;
+    padding: 0;
+    width: 77%;
+    bottom: 17%;
+    z-index: 9;
+    animation: wAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: wAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
+._s_mob_2 {
+    bottom: 3%;
+    position: absolute;
+    width: 91%;
+    float: left;
+    animation: andrAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: andrAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
+._s_ad_icons {
+    float: left;
+    position: absolute;
+    padding: 0;
+    width: 77%;
+    bottom: 17%;
+    z-index: 9;
+    animation: andIcAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: andIcAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
+._s_mob_3 {
+    bottom: 3%;
+    position: absolute;
+    width: 91%;
+    float: left;
+    animation: winmobAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: winmobAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
+._s_wind_icons {
+    float: left;
+    position: absolute;
+    padding: 0;
+    width: 77%;
+    bottom: 17%;
+    z-index: 9;
+    animation: windIcAnimation 10s linear -2s infinite;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: windIcAnimation;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal; */
+}
